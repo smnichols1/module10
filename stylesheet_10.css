@@ -1,0 +1,215 @@
+html, body{
+    height: 100%;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+header{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 10px black
+}
+.name{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+.profile{
+  width: 520px;
+  height: 400px;
+}
+.section1{
+    text-align: center;
+    float: none;
+    display: block;
+    margin: 0;
+    padding: 5px;
+}
+.h1{
+  text-decoration: dotted;
+  color: #000;
+  margin: 0 0 1em 0;
+}
+.project-description{
+  text-decoration: dotted;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 5px black;
+}
+.p1{
+  text-wrap:balance;
+  display: block;
+  float: left;
+  text-align: left;
+  flex: auto;
+  margin: 0;
+  padding: 5px;
+}
+.projects{
+  line-height: 100%;
+  display: grid;
+  grid-column: 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 3%;
+  margin: 20px;
+  background-color: rgb(190, 122, 86);
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(130, 48, 40) ;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    color: rgb(253, 220, 168);
+  }
+.navbar a {
+    float: center;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+  } 
+  .dropdown {
+    float: right;
+    overflow: hidden;
+    margin: 0;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown .dropbtn {
+    color: rgb(253, 220, 168);
+    background-color: inherit;
+    margin: 0;
+    font-size: 25px;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(130, 48, 40) ;
+  }
+  
+  .dropdown-content {
+    background-color: white;
+    display: none;
+    position: absolute;
+    min-width: fit-content;
+    padding: 10px 10px;
+  }
+ 
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+  }
+  .content a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+  }
+  .dropdown-content a:hover {
+    background-color: rgb(191, 107, 59);
+  }
+.container {
+    padding: 10px 10px 10px 10px;
+    float: left;
+    margin: 10px;
+  }
+.slide-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+.slides {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 2px;
+ }
+ .slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+ }
+ .slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  bottom: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+ }
+ .slider-nav a{
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+ }
+ .slider-nav a:hover{
+  opacity: 1;
+}
+footer{
+  background-color: rgb(77, 29, 24) ;
+  text-align: left;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.sidebar {
+  float: left;
+  width: 20%;
+}
+
+.content {
+  float: right;
+  width: 75%;
+}
+.wrapper {
+  max-width: 940px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  
+}
+.wrapper > * {
+  background-color:rgb(169, 77, 49);
+  color: #ffffff;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.footer{
+  width: 100%;
+  height: max-content;
+  background-color: rgb(78, 27, 22) ;;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  position: absolute;
+  margin: 10px;
+}
